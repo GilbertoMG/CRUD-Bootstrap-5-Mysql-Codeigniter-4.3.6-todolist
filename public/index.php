@@ -10,6 +10,7 @@ if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
         PHP_VERSION
     );
 
+    
     exit($message);
 }
 
